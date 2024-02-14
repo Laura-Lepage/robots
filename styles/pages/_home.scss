@@ -1,0 +1,33 @@
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.buttons{
+    padding: 75px 0 25px;
+    text-align: center;
+    button{
+        padding: 10px 50px;
+    }
+    .men{
+        background-color: #4f4fa0;
+        color: #fff;
+    }
+    .women{
+        background-color: rgb(220, 85, 107)
+    }
+}
+.gallery{
+    @include minmax(200px);
+    gap:50px;
+    padding: 50px;
+}
+.Female{
+    h3{
+        color:rgb(207, 36, 65);
+    }
+}
+.Male{
+    h3{
+        color:#4f4fa0
+    }
+}
